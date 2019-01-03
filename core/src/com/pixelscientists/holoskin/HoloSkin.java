@@ -69,7 +69,7 @@ public class HoloSkin extends ApplicationAdapter {
         ImageButtonStyle style = new ImageButtonStyle(skin.get(ButtonStyle.class));
         style.imageUp = new TextureRegionDrawable(image);
         style.imageDown = new TextureRegionDrawable(imageFlipped);
-        final ImageButton iconButton = new ImageButton(style);
+        final ImageButton iconButton = new ImageButton(skin, "default");
 
         final Button buttonMulti = new TextButton("Multi\nLine\nToggle", skin, "toggle");
         final Button imgButton = new Button(new Image(image), skin, "colored");
@@ -185,9 +185,9 @@ public class HoloSkin extends ApplicationAdapter {
         
         window.defaults().spaceBottom(10);
         window.row().fill().expandX();
-       // window.add(iconButton);
+        window.add(iconButton);
         window.add(buttonMulti);
-       // window.add(imgButton);
+        window.add(imgButton);
         window.add(imgToggleButton);
         window.row();
         window.add(checkBox);
