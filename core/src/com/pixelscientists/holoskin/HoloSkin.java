@@ -2,24 +2,44 @@ package com.pixelscientists.holoskin;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.ui.*;
+import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Button.ButtonStyle;
+import com.badlogic.gdx.scenes.scene2d.ui.CheckBox;
+import com.badlogic.gdx.scenes.scene2d.ui.Dialog;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
 import com.badlogic.gdx.scenes.scene2d.ui.ImageButton.ImageButtonStyle;
-import com.badlogic.gdx.scenes.scene2d.ui.TextField.TextFieldListener;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.List;
+import com.badlogic.gdx.scenes.scene2d.ui.ProgressBar;
+import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
+import com.badlogic.gdx.scenes.scene2d.ui.SelectBox;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.Slider;
+import com.badlogic.gdx.scenes.scene2d.ui.SplitPane;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.ui.TextArea;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.scenes.scene2d.ui.TextField;
+import com.badlogic.gdx.scenes.scene2d.ui.Touchpad;
+import com.badlogic.gdx.scenes.scene2d.ui.Tree;
+import com.badlogic.gdx.scenes.scene2d.ui.Window;
+import com.badlogic.gdx.scenes.scene2d.utils.Align;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
-import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Timer;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
+import com.badlogic.gdx.scenes.scene2d.ui.TextField.TextFieldListener;
+import com.badlogic.gdx.scenes.scene2d.EventListener;
+import com.badlogic.gdx.Input;
 
 public class HoloSkin extends ApplicationAdapter {
-    Object[] listEntries = {"This is a list entry1", "And another one1", "The meaning of life1", "Is hard to come by1",
+    Object[] listEntries = {"这是一个列表 entry1", "And another one1", "The meaning of life1", "Is hard to come by1",
             "This is a list entry2", "And another one2", "The meaning of life2", "Is hard to come by2", "This is a list entry3",
             "And another one3", "The meaning of life3", "Is hard to come by3", "This is a list entry4", "And another one4",
             "The meaning of life4", "Is hard to come by4", "This is a list entry5", "And another one5", "The meaning of life5",
@@ -74,7 +94,7 @@ public class HoloSkin extends ApplicationAdapter {
         progressBar.setAnimateDuration(0.3f);
         final TextField textfield = new TextField("", skin);
         textfield.setMessageText("Click here!");
-        textfield.setAlignment(Align.right);
+        //XLDEBUG textfield.setAlignment(Align.right);
         final SelectBox selectBox = new SelectBox(skin);
         selectBox.addListener(new ChangeListener() {
             public void changed(ChangeEvent event, Actor actor) {
@@ -113,11 +133,11 @@ public class HoloSkin extends ApplicationAdapter {
         final Label textAreaLabel = new Label("Textarea with multiple lines: ", skin);
         final TextArea textArea = new TextArea("Some text\nSome more text\n\nAnd the final text after a paragraph!", skin, "area");
 
-        buttonMulti.addListener(new TextTooltip("This is a tooltip! This is a tooltip! This is a tooltip! This is a tooltip! This is a tooltip! This is a tooltip!", skin));
+        //XLDEBUG buttonMulti.addListener(new TextTooltip("This is a tooltip! This is a tooltip! This is a tooltip! This is a tooltip! This is a tooltip! This is a tooltip!", skin));
         Table tooltipTable = new Table(skin);
         tooltipTable.pad(10).background("tooltip");
         tooltipTable.add(new TextButton("Fancy tooltip!", skin));
-        imgButton.addListener(new Tooltip(tooltipTable));
+        //XLDEBUG imgButton.addListener(new Tooltip(tooltipTable));
 
         Touchpad touchpad = new Touchpad(0f, skin);
 
@@ -146,7 +166,7 @@ public class HoloSkin extends ApplicationAdapter {
                 radioButton.setDisabled(!radioButton.isDisabled());
                 progressBar.setDisabled(!progressBar.isDisabled());
                 textfield.setDisabled(!textfield.isDisabled());
-                selectBox.setDisabled(!selectBox.isDisabled());
+               //XLDEBUG selectBox.setDisabled(!selectBox.isDisabled());
                 passwordTextField.setDisabled(!passwordTextField.isDisabled());
                 textArea.setDisabled(!textArea.isDisabled());
                 Timer.instance().scheduleTask(new Timer.Task() {
@@ -160,13 +180,14 @@ public class HoloSkin extends ApplicationAdapter {
 
         // window.debug();
         Window window = new Window("Dialog", skin);
-        window.getTitleTable().add(new TextButton("X", skin));
-        window.setPosition(0, 0);
+		//window.setWidth(Gdx.graphics.getWidth()*2);
+        //XLDEBUG window.getTitleTable().add(new TextButton("X", skin));
+        
         window.defaults().spaceBottom(10);
         window.row().fill().expandX();
-        window.add(iconButton);
+       // window.add(iconButton);
         window.add(buttonMulti);
-        window.add(imgButton);
+       // window.add(imgButton);
         window.add(imgToggleButton);
         window.row();
         window.add(checkBox);
@@ -197,7 +218,7 @@ public class HoloSkin extends ApplicationAdapter {
         window.pack();
 
         stage.addActor(window);
-
+		window.setPosition((Gdx.graphics.getWidth()-window.getWidth())/2, (Gdx.graphics.getHeight()-window.getHeight())/2);
         textfield.setTextFieldListener(new TextFieldListener() {
             public void keyTyped(TextField textField, char key) {
                 if (key == '\n') textField.getOnscreenKeyboard().show(false);
@@ -216,8 +237,8 @@ public class HoloSkin extends ApplicationAdapter {
                     protected void result(Object object) {
                         System.out.println("Chosen: " + object);
                     }
-                }.text("Are you enjoying this demo?").button("Yes", true).button("No", false).key(Keys.ENTER, true)
-                        .key(Keys.ESCAPE, false).show(stage);
+                }.text("Are you enjoying this demo?").button("Yes", true).button("No", false).key(Input.Keys.ENTER, true)
+                        .key(Input.Keys.ESCAPE , false).show(stage);
             }
         });
 

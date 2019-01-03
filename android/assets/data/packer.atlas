@@ -1,0 +1,895 @@
+
+packer.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+dialog_holo_light
+  rotate: false
+  xy: 0, 0
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+apptheme_text_select_handle_middle
+  rotate: false
+  xy: 111, 0
+  size: 71, 87
+  orig: 71, 87
+  offset: 0, 0
+  index: -1
+apptheme_text_select_handle_right
+  rotate: false
+  xy: 182, 0
+  size: 71, 87
+  orig: 71, 87
+  offset: 0, 0
+  index: -1
+apptheme_text_select_handle_left
+  rotate: false
+  xy: 253, 0
+  size: 71, 87
+  orig: 71, 87
+  offset: 0, 0
+  index: -1
+apptheme_fastscroll_thumb_default_holo
+  rotate: false
+  xy: 324, 0
+  size: 45, 81
+  orig: 45, 81
+  offset: 0, 0
+  index: -1
+apptheme_fastscroll_thumb_pressed_holo
+  rotate: false
+  xy: 369, 0
+  size: 45, 81
+  orig: 45, 81
+  offset: 0, 0
+  index: -1
+apptheme_btn_rating_star_off_focused_holo_light
+  rotate: false
+  xy: 414, 0
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+apptheme_btn_rating_star_off_normal_holo_light
+  rotate: false
+  xy: 486, 0
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+apptheme_btn_rating_star_off_pressed_holo_light
+  rotate: false
+  xy: 558, 0
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+apptheme_btn_rating_star_on_focused_holo_light
+  rotate: false
+  xy: 630, 0
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+apptheme_btn_rating_star_on_normal_holo_light
+  rotate: false
+  xy: 702, 0
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+apptheme_btn_rating_star_on_pressed_holo_light
+  rotate: false
+  xy: 774, 0
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+apptheme_slider_knob
+  rotate: false
+  xy: 846, 0
+  size: 49, 65
+  orig: 49, 65
+  offset: 0, 0
+  index: -1
+apptheme_list_selector_disabled_holo_light
+  rotate: false
+  xy: 895, 0
+  size: 21, 63
+  orig: 21, 63
+  offset: 0, 0
+  index: -1
+apptheme_fastscroll_thumb_pressed_holo_v
+  rotate: false
+  xy: 916, 0
+  size: 21, 57
+  orig: 21, 57
+  offset: 0, 0
+  index: -1
+apptheme_rate_star_big_on_holo_light
+  rotate: false
+  xy: 937, 0
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+apptheme_rate_star_big_half_holo_light
+  rotate: false
+  xy: 937, 52
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+apptheme_rate_star_big_off_holo_light
+  rotate: false
+  xy: 0, 111
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+apptheme_textarea_disabled_holo_light
+  rotate: false
+  xy: 52, 111
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+apptheme_textarea_focused_holo_light
+  rotate: false
+  xy: 91, 111
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+apptheme_textarea_default_holo_light
+  rotate: false
+  xy: 130, 111
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_off_disabled_holo_light
+  rotate: false
+  xy: 169, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_off_focused_holo_light
+  rotate: false
+  xy: 217, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_off_holo_light
+  rotate: false
+  xy: 265, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_off_pressed_holo_light
+  rotate: false
+  xy: 313, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_on_disabled_focused_holo_light
+  rotate: false
+  xy: 361, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_on_disabled_holo_light
+  rotate: false
+  xy: 409, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_on_focused_holo_light
+  rotate: false
+  xy: 457, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_on_holo_light
+  rotate: false
+  xy: 505, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_on_pressed_holo_light
+  rotate: false
+  xy: 553, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_off_disabled_focused_holo_light
+  rotate: false
+  xy: 601, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_off_disabled_holo_light
+  rotate: false
+  xy: 649, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_off_focused_holo_light
+  rotate: false
+  xy: 697, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_off_holo_light
+  rotate: false
+  xy: 745, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_off_pressed_holo_light
+  rotate: false
+  xy: 793, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_on_disabled_focused_holo_light
+  rotate: false
+  xy: 841, 111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_off_disabled_focused_holo_light
+  rotate: false
+  xy: 889, 111
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_off_disabled_holo_light
+  rotate: false
+  xy: 928, 111
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_off_focused_holo_light
+  rotate: false
+  xy: 967, 111
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_off_normal_holo_light
+  rotate: false
+  xy: 0, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_off_pressed_holo_light
+  rotate: false
+  xy: 39, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_on_disabled_focused_holo_light
+  rotate: false
+  xy: 78, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_on_disabled_holo_light
+  rotate: false
+  xy: 117, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_on_focused_holo_light
+  rotate: false
+  xy: 156, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_on_normal_holo_light
+  rotate: false
+  xy: 195, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_toggle_on_pressed_holo_light
+  rotate: false
+  xy: 234, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_on_disabled_holo_light
+  rotate: false
+  xy: 273, 163
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_on_focused_holo_light
+  rotate: false
+  xy: 321, 163
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_on_holo_light
+  rotate: false
+  xy: 369, 163
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_check_on_pressed_holo_light
+  rotate: false
+  xy: 417, 163
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_colored_disabled_focused_holo_light
+  rotate: false
+  xy: 465, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_colored_disabled_holo_light
+  rotate: false
+  xy: 504, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_colored_focused_holo_light
+  rotate: false
+  xy: 543, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_scrubber_control_disabled_holo
+  rotate: false
+  xy: 582, 163
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_scrubber_control_focused_holo
+  rotate: false
+  xy: 630, 163
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_scrubber_control_normal_holo
+  rotate: false
+  xy: 678, 163
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_scrubber_control_pressed_holo
+  rotate: false
+  xy: 726, 163
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_colored_normal_holo_light
+  rotate: false
+  xy: 774, 163
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_spinner_colored_disabled_holo_light
+  rotate: false
+  xy: 989, 0
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+apptheme_spinner_colored_focused_holo_light
+  rotate: false
+  xy: 989, 48
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+apptheme_spinner_colored_normal_holo_light
+  rotate: false
+  xy: 813, 163
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+apptheme_spinner_colored_pressed_holo_light
+  rotate: false
+  xy: 846, 163
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+apptheme_spinner_default_holo_light
+  rotate: false
+  xy: 879, 163
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+apptheme_spinner_disabled_holo_light
+  rotate: false
+  xy: 912, 163
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+apptheme_spinner_focused_holo_light
+  rotate: false
+  xy: 945, 163
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+apptheme_spinner_pressed_holo_light
+  rotate: false
+  xy: 978, 163
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_colored_pressed_holo_light
+  rotate: false
+  xy: 0, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_default_disabled_focused_holo_light
+  rotate: false
+  xy: 39, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_default_disabled_holo_light
+  rotate: false
+  xy: 78, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_default_focused_holo_light
+  rotate: false
+  xy: 117, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_default_normal_holo_light
+  rotate: false
+  xy: 156, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_default_pressed_holo_light
+  rotate: false
+  xy: 195, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_textfield_activated_holo_light
+  rotate: false
+  xy: 234, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_textfield_default_holo_light
+  rotate: false
+  xy: 273, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_textfield_disabled_focused_holo_light
+  rotate: false
+  xy: 312, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_textfield_disabled_holo_light
+  rotate: false
+  xy: 351, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_textfield_focused_holo_light
+  rotate: false
+  xy: 390, 211
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+apptheme_btn_radio_off_disabled_focused_holo_light
+  rotate: false
+  xy: 429, 211
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+apptheme_fastscroll_thumb_default_holo_v
+  rotate: false
+  xy: 895, 63
+  size: 11, 47
+  orig: 11, 47
+  offset: 0, 0
+  index: -1
+apptheme_switch_thumb_holo_light
+  rotate: false
+  xy: 477, 211
+  size: 78, 42
+  orig: 78, 42
+  offset: 0, 0
+  index: -1
+apptheme_switch_thumb_pressed_holo_light
+  rotate: false
+  xy: 555, 211
+  size: 78, 42
+  orig: 78, 42
+  offset: 0, 0
+  index: -1
+apptheme_switch_bg_disabled_holo_light
+  rotate: false
+  xy: 846, 65
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+apptheme_switch_bg_focused_holo_light
+  rotate: false
+  xy: 633, 211
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+apptheme_switch_bg_holo_light
+  rotate: false
+  xy: 663, 211
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+apptheme_switch_thumb_activated_holo_light
+  rotate: false
+  xy: 693, 211
+  size: 78, 42
+  orig: 78, 42
+  offset: 0, 0
+  index: -1
+apptheme_switch_thumb_disabled_holo_light
+  rotate: false
+  xy: 771, 211
+  size: 78, 42
+  orig: 78, 42
+  offset: 0, 0
+  index: -1
+card
+  rotate: false
+  xy: 414, 72
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+apptheme_progress_vertical_primary_holo_light
+  rotate: false
+  xy: 459, 72
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+tooltip
+  rotate: false
+  xy: 324, 81
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+apptheme_progressbar_indeterminate_holo4
+  rotate: false
+  xy: 0, 259
+  size: 909, 24
+  orig: 909, 24
+  offset: 0, 0
+  index: -1
+apptheme_progressbar_indeterminate_holo5
+  rotate: false
+  xy: 0, 283
+  size: 909, 24
+  orig: 909, 24
+  offset: 0, 0
+  index: -1
+apptheme_progressbar_indeterminate_holo6
+  rotate: false
+  xy: 0, 307
+  size: 909, 24
+  orig: 909, 24
+  offset: 0, 0
+  index: -1
+apptheme_progressbar_indeterminate_holo7
+  rotate: false
+  xy: 0, 331
+  size: 909, 24
+  orig: 909, 24
+  offset: 0, 0
+  index: -1
+apptheme_progressbar_indeterminate_holo8
+  rotate: false
+  xy: 0, 355
+  size: 909, 24
+  orig: 909, 24
+  offset: 0, 0
+  index: -1
+apptheme_progress_bg_holo_light
+  rotate: false
+  xy: 349, 81
+  size: 6, 24
+  orig: 6, 24
+  offset: 0, 0
+  index: -1
+apptheme_progress_primary_holo_light
+  rotate: false
+  xy: 111, 87
+  size: 33, 24
+  orig: 33, 24
+  offset: 0, 0
+  index: -1
+apptheme_progress_secondary_holo_light
+  rotate: false
+  xy: 144, 87
+  size: 6, 24
+  orig: 6, 24
+  offset: 0, 0
+  index: -1
+apptheme_rate_star_small_half_holo_light
+  rotate: false
+  xy: 150, 87
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+apptheme_rate_star_small_off_holo_light
+  rotate: false
+  xy: 182, 87
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+apptheme_rate_star_small_on_holo_light
+  rotate: false
+  xy: 206, 87
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+apptheme_ic_navigation_drawer
+  rotate: false
+  xy: 253, 87
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+apptheme_progressbar_indeterminate_holo1
+  rotate: false
+  xy: 0, 379
+  size: 909, 24
+  orig: 909, 24
+  offset: 0, 0
+  index: -1
+apptheme_progressbar_indeterminate_holo2
+  rotate: false
+  xy: 0, 403
+  size: 909, 24
+  orig: 909, 24
+  offset: 0, 0
+  index: -1
+apptheme_progressbar_indeterminate_holo3
+  rotate: false
+  xy: 0, 427
+  size: 909, 24
+  orig: 909, 24
+  offset: 0, 0
+  index: -1
+apptheme_fastscroll_thumb_pressed_holo_h
+  rotate: false
+  xy: 486, 72
+  size: 57, 21
+  orig: 57, 21
+  offset: 0, 0
+  index: -1
+apptheme_scrubber_primary_holo
+  rotate: false
+  xy: 486, 93
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+apptheme_scrubber_secondary_holo
+  rotate: false
+  xy: 501, 93
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+apptheme_scrubber_track_holo_light
+  rotate: false
+  xy: 516, 93
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+tree-minus
+  rotate: false
+  xy: 531, 93
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+tree-plus
+  rotate: false
+  xy: 543, 72
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+apptheme_tab_selected_holo
+  rotate: false
+  xy: 545, 93
+  size: 3, 12
+  orig: 3, 12
+  offset: 0, 0
+  index: -1
+apptheme_tab_selected_pressed_holo
+  rotate: false
+  xy: 548, 93
+  size: 3, 12
+  orig: 3, 12
+  offset: 0, 0
+  index: -1
+apptheme_tab_selected_focused_holo
+  rotate: false
+  xy: 551, 93
+  size: 3, 12
+  orig: 3, 12
+  offset: 0, 0
+  index: -1
+apptheme_fastscroll_thumb_default_holo_h
+  rotate: false
+  xy: 277, 87
+  size: 47, 11
+  orig: 47, 11
+  offset: 0, 0
+  index: -1
+apptheme_list_focused_holo
+  rotate: false
+  xy: 277, 98
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+apptheme_list_longpressed_holo
+  rotate: false
+  xy: 286, 98
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+apptheme_list_pressed_holo_light
+  rotate: false
+  xy: 295, 98
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+apptheme_list_activated_holo
+  rotate: false
+  xy: 304, 98
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+apptheme_progress_vertical_bg_holo_light
+  rotate: false
+  xy: 989, 96
+  size: 24, 6
+  orig: 24, 6
+  offset: 0, 0
+  index: -1
+apptheme_tab_unselected_focused_holo
+  rotate: false
+  xy: 989, 102
+  size: 3, 6
+  orig: 3, 6
+  offset: 0, 0
+  index: -1
+apptheme_tab_unselected_holo
+  rotate: false
+  xy: 992, 102
+  size: 3, 6
+  orig: 3, 6
+  offset: 0, 0
+  index: -1
+apptheme_tab_unselected_pressed_holo
+  rotate: false
+  xy: 995, 102
+  size: 3, 6
+  orig: 3, 6
+  offset: 0, 0
+  index: -1
+default-splitpane-vertical
+  rotate: false
+  xy: 998, 102
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 1001, 102
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-splitpane
+  rotate: false
+  xy: 1004, 102
+  size: 5, 3
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 1009, 102
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+selection
+  rotate: false
+  xy: 1012, 102
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

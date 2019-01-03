@@ -1,6 +1,6 @@
 {
 com.badlogic.gdx.graphics.g2d.BitmapFont: {
-	default-font: {file: default.fnt }
+	default-font: {file: font.fnt }
 },
 com.badlogic.gdx.graphics.Color: {
 	green: {a: 1, b: 0, g: 1, r: 0 },
@@ -79,9 +79,6 @@ com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
 com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
 	default: {minus: tree-minus, plus: tree-plus, selection: apptheme_list_activated_holo }
 },
-com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
-	default: {label: {font: default-font, fontColor: default}, background: tooltip, wrapWidth: 150
-		 }
-}
+
 
 }
